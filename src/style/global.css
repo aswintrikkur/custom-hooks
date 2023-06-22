@@ -7,7 +7,7 @@
 }
 #root {
 	margin: 0 auto;
-	text-align: center;
+	/* text-align: center; */
 }
 :root {
 	color-scheme: light dark;
@@ -23,7 +23,9 @@
 button {
 	width: 100px;
 	height: 45px;
+	/* overflow: auto; */
 }
 button:hover {
 	cursor: pointer;
+	border: 1px solid;
 }
